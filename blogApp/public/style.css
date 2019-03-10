@@ -1,0 +1,90 @@
+html, body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#chat {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  width: 600px;
+  border: 1px solid #ddd;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+button {
+  width: 600px;
+  height: 50px;
+  font-size: 14px;
+  background: #069;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  color: #FFF;
+  margin-top: 10px;
+}
+
+.messages {
+  width: 600px;
+  height: 400px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+.login-form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	padding: 60px 40px;
+	background: rgba(255,255,255,1);
+	box-shadow: 0 15px 20px rgba(0,0,0,.2);
+}
+.login-form h2{
+	margin: 0 0 40px;
+	padding: 0;
+	text-align: center;
+}
+.login-form .form-input{
+	position: relative;
+	margin: 20px 0;
+}
+.login-form .form-input input{
+		outline: none;
+		height: 40px;
+		padding: 10px;
+		box-sizing: border-box;
+		width: 100%;
+		border: 1px solid rgba(0,0,0,.5);
+		background: transparent;
+		font-size: 18px;
+}
+.login-form .form-input input[type="submit"]{
+	background: #e91e63;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.login-form .form-input input[type="submit"]:hover{
+	background: #0090ff;
+}
+.login-form .forget{
+	display: block;
+	margin-top: 30px;
+	color: #000;
+	font-weight: bold;
+}
